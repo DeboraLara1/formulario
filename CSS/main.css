@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color    :blue;
+}
+
+body {
+    font: 100% DejaVu Sans Mono, monospace;
+    font-size: 10px;
+    margin: 20px;
+    line-height: 26px;
+}
+
+.background {
+    /* Control the height and widht of the image */
+    min-height: 900px;
+    max-width: 1100px;
+  
+    /* Center and scale the image nicely */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 550px 250px;
+    background-color: blue;
+    position: relative;
+}
+
+.form {
+    /* The image used */
+    /*background-image: url("../img/logo.png");*/
+  
+    /* Control the height and widht of the image */
+    min-height: 900px;
+    max-width: 1100px;
+  
+    /* Center and scale the image nicely */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 550px 250px;
+    background-color: blue;
+    position: relative;
+    margin: auto;
+}
+
+.logo {
+    width: 40%;
+    height: 73%;
+    position: absolute;
+}
+  
+/* Add styles to the form container */
+.container {
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 73%;
+    padding: 30px;
+    background-color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: 2px solid;
+    border-radius: 8px;
+    border-color: gray;
+    background: #ffffff;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: 2px solid;
+    border-radius: 100px;
+    border-color: gray;
+    background: #ffffff;
+}
+
+input[type=text], input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: 2px solid;
+    border-radius: 100px;
+    border-color: gray;
+    background: #ffffff;
+}
+  
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ffffff;
+    outline: none;
+    border: 2px solid;
+    border-radius: 100px;
+    border-color: gray;
+}
+
+.social-media {
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: min-content;
+    border: 2px;
+    border-radius: 100px;
+    border-color: gray;
+}
+
+.container-signin {
+    border: none;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: min-content;
+}

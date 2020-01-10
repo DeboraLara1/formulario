@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tela Desafio</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mask.js"></script>
+    <script type="text/javascript" src="js/mask.js"></script>
+    <script type="text/javascript" src="js/password.js"></script>
+    <script type="text/javascript" src="js/confirmRegister.js"></script>
+</head>
+
+<body>
+    <div class="form">
+        <img src="./img/logo.png" class="logo">
+        <form name="register" action="" method="POST">
+            <div class="container">
+
+                <h1 align="center">Create an Account!</h1>
+
+                <label for="name"></label>
+                <input type="text" placeholder="First Name" name="name" required>
+
+                <input type="text" name="phone" id="phone" placeholder="(__) _ ____-____" required />
+
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <input type="password" placeholder="Repeat Password" name="repeatPsw" required>
+
+                <div class="social-media">
+                    <a href="">
+                        <img src="./img/img registro.png" class="social-media"
+                            onclick="validatePassword(), confirmRegister()">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/img google.png" class="social-media" onclick="confirmRegister()">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/img facebook.png" class="social-media" onclick="confirmRegister()">
+                    </a>
+                </div>
+
+                <div class="container-signin">
+                    <p>Forgot password? <a href="#"></a></p>
+                    <p>Already have an account? <a href="#">Login</a>.</p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
